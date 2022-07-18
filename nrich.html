@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sqrt Pi - NRICH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="styles.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-small w3-xlarge">
+    <a onclick="goto('index.html')"> $$\sqrt{\pi}$$ </a>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top w3-padding-large w3-black bolder">NRICH Problems!</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+</div>
+<div class="articles">
+<div class="binary">
+      <div class="w3-row line-under">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p class="w3-margin-right w3-margin-bottom bolder">Two Cubic Equations</p>
+          <img onclick="goto('files/Two_Cubic_Equations.pdf')" src="img/cubic.png" class="w3-round w3-image w3-opacity-min" alt="Cubic Equations" width="500" height="333">
+        </div>
+    
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>This problem was to find out real roots of an equation in relation to another equation. The key to this question was to think of the graph as a transformation of the other. Doing this made the answer become very clear.</p>
+            <button onclick="goto('files/Two_Cubic_Equations.pdf')"class="readmore">Read More</button>
+        </div>
+      </div>
+
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <p class="w3-margin-right w3-margin-bottom bolder">Solving By Squaring</p>
+          <img onclick="goto('files/Solving_by_Squaring.pdf')" src="img/logs.jpg" class="w3-round w3-image w3-opacity-min" alt="Dice" width="500" height="333">
+        </div>
+    
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>This problem is an example of a proof however it makes some errors. I avoid these errors by using logarithms to find solutions to the equation.</p>
+            <button onclick="goto('files/Solving_by_Squaring.pdf')"class="readmore">Read More</button>
+        </div>
+      </div>
+</div>
+<div class="probability">
+
+</div>
+</div>
+</body>
+<script>
+    function goto(a){
+        window.location = a;
+    }
+</script>
+</html>
